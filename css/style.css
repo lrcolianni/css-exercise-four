@@ -75,27 +75,34 @@ h1 {
 
 .container{
   flex-direction: column;
-  width: 100vw;
+  flex-wrap: wrap;
+}
+.pictures {
+  width: 200vw;
   height: 8em;
   margin-bottom: 1em;
-  flex-wrap: wrap;
 }
 }
 
 
 @media screen and (max-width: 575px) {
 
-  .container {
+  .container{
+      flex-direction: row;
+    }
+
+  .pictures {
     width: 50vw;
     height: 10em;
-    flex-direction: row;
     padding: 1.5em;
   }
 }
 
 @media screen and (max-width: 1157px) {
   .container{
-      flex-direction: row;
+      flex-direction: row;}
+
+      .pictures {
       width: 25vw;
       height: 18em;
       padding: 1.5em;
