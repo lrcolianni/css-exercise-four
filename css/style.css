@@ -72,31 +72,33 @@ h1 {
 
 
 @media screen and (max-width: 375px){
-}
-.pictures{
+
+.container{
   flex-direction: column;
   width: 100vw;
   height: 8em;
   margin-bottom: 1em;
   flex-wrap: wrap;
 }
+}
 
 
 @media screen and (max-width: 575px) {
 
-  .pictures {
+  .container {
     width: 50vw;
     height: 10em;
     flex-direction: row;
     padding: 1.5em;
   }
+}
 
-@media screen and (max-width: 991px) {
-  .pictures{
+@media screen and (max-width: 1157px) {
+  .container{
       flex-direction: row;
       width: 25vw;
       height: 18em;
       padding: 1.5em;
 
-
+}
   }
